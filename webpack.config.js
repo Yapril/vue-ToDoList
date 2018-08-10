@@ -25,6 +25,16 @@ module.exports = {
 					},
 					{
 						loader: 'sass-loader'
+					},
+					{
+						loader: 'px2rem-loader',
+						options: {
+							remUnit: 32,
+							remPrecision: 8
+						}
+					},
+					{
+						loader: 'postcss-loader'
 					}
 				]
 			},

@@ -1,7 +1,7 @@
 <template>
     <div id="app">
-        <navbar></navbar>
-        <router-view></router-view>
+        <deadline></deadline>
+        <todo-list></todo-list>
     </div>
 </template>
 
@@ -9,11 +9,13 @@
 @import './assets/css/lib';
 </style>
 
+
 <script>
-import navbar from './components/nav.vue'
+import Deadline from './components/Deadline.vue'
+import TodoList from './components/TodoList.vue'
 export default {
     name: 'App',
-    components: {navbar}
+    components: { Deadline, TodoList }
 }
 </script>
 
