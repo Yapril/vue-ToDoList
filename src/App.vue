@@ -1,7 +1,6 @@
 <template>
     <div id="app">
-        <deadline></deadline>
-        <todo-list></todo-list>
+        <router-view></router-view>
     </div>
 </template>
 
@@ -11,11 +10,5 @@
 
 
 <script>
-import Deadline from './components/Deadline.vue'
-import TodoList from './components/TodoList.vue'
-export default {
-    name: 'App',
-    components: { Deadline, TodoList }
-}
 </script>
 

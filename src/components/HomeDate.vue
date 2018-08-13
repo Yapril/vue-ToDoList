@@ -26,14 +26,14 @@
 }
 
 .dl-today {
-    font-size: 30px;
-    line-height: 300px;
+    font-size: 36px;
+    line-height: 660px;
 }
 </style>
 
 <script>
 const curDate = new Date()
-let today = curDate.getFullYear() + '-' + curDate.getMonth() + '-' + curDate.getDate()
+let today = curDate.getFullYear() + '-' + (curDate.getMonth()+1) + '-' + curDate.getDate()
 export default {
     data() {
         return {
