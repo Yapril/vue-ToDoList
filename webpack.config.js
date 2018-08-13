@@ -24,17 +24,10 @@ module.exports = {
 						loader: 'css-loader'
 					},
 					{
-						loader: 'sass-loader'
-					},
-					{
-						loader: 'px2rem-loader',
-						options: {
-							remUnit: 32,
-							remPrecision: 8
-						}
-					},
-					{
 						loader: 'postcss-loader'
+					},
+					{
+						loader: 'sass-loader'
 					}
 				]
 			},

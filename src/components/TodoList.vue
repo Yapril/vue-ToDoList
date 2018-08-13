@@ -11,6 +11,7 @@
 <style lang="scss">
 .todo {
     padding: 0 20px;
+    display: flex;
 }
 .td-list {
     li {

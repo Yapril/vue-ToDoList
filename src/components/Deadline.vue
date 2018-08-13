@@ -9,8 +9,8 @@
 <style lang="scss">
 .deadline-wrap {
     position: relative;
-    width: 100%;
-    height: 300px;
+    width: 750px;
+    height: 660px;
     text-align: center;
     background-color: #eee;
 }
