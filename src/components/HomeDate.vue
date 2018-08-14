@@ -1,12 +1,13 @@
 <template>
     <div class="deadline-wrap">
-        <div class="add-btn"><router-link to="add">+</router-link></div>
+        <div class="add-btn"><router-link to="add"></router-link></div>
         <div class="dl-remain"></div>
         <div class="dl-today">{{date}}</div>
     </div>
 </template>
 
 <style lang="scss">
+@import '../assets/css/_sprite.scss';
 .deadline-wrap {
     position: relative;
     width: 750px;
@@ -16,10 +17,7 @@
 }
 
 .add-btn {
-    width: 30px;
-    height: 30px;
-    font-size: 30px;
-    font-weight: bold;
+    @include sprite($add);
     position: absolute;
     top: 0;
     right: 0;

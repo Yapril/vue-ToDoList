@@ -6,7 +6,7 @@ module.exports = {
             'threeVersion': false,
             'remVersion': true,
             'remUnit': 75,
-            'remPrecision': 5
+            'remPrecision': 1
         })
     ]
 }

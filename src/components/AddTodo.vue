@@ -1,7 +1,7 @@
 <template>
     <div class="todo-add">
         <div class="add-header">
-            <div class="back-btn"><router-link to="home">back</router-link></div>
+            <div class="back-btn"><router-link to="home"></router-link></div>
             <h1>添加任务</h1>
         </div> 
         <div class="add-item">
@@ -21,6 +21,7 @@
 </template>
 
 <style lang="scss">
+@import '../assets/css/_sprite.scss';
 .todo-add {
     position: absolute;
     background: #fff;
@@ -46,6 +47,10 @@
         font-size: 24px;
         padding: 20px;
     }
+}
+
+.back-btn {
+    @include sprite($back);
 }
 </style>
 
