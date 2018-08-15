@@ -62,7 +62,10 @@ module.exports = {
 				css: path.resolve(__dirname, 'src/assets/css/_sprite.scss')  // 生成的sass保存在哪里
 			},
 			apiOptions: {
-				cssImageRef: '~sprite.png' //css根据该指引找到sprite图
+				cssImageRef: '~sprite.png', //css根据该指引找到sprite图
+			},
+			spritesmithOptions: {
+				padding: 4
 			}
 		})
 	],

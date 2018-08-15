@@ -21,7 +21,7 @@
 </template>
 
 <style lang="scss">
-@import '../assets/css/_sprite.scss';
+@import '../assets/css/_lib.scss';
 .todo-add {
     position: absolute;
     background: #fff;

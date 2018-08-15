@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --open --env dev --host 10.129.232.183",
+    "dev": "webpack-dev-server",
     "build": "webpack"
   },
   "repository": {

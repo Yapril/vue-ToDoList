@@ -5,7 +5,6 @@
 </template>
 
 <style lang="scss">
-@import './assets/css/lib';
 </style>
 
 

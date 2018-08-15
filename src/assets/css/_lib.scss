@@ -1,1 +1,16 @@
-@import 'reset'
+@import 'reset';
+@import 'sprite';
+
+@mixin sprite-size($sprite) {
+    $sprite-total-width: nth($sprite, 7);
+    $sprite-total-height: nth($sprite, 8);
+    background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin sprite($sprite) {
+    @include sprite-image($sprite);
+    @include sprite-position($sprite);
+    @include sprite-size($sprite);
+    @include sprite-width($sprite);
+    @include sprite-height($sprite);
+}

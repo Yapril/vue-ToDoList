@@ -16,26 +16,26 @@ $add-offset-x: 0px;
 $add-offset-y: 0px;
 $add-width: 64px;
 $add-height: 64px;
-$add-total-width: 128px;
+$add-total-width: 132px;
 $add-total-height: 64px;
 $add-image: '~sprite.png';
-$add: (0px, 0px, 0px, 0px, 64px, 64px, 128px, 64px, '~sprite.png', 'add', );
+$add: (0px, 0px, 0px, 0px, 64px, 64px, 132px, 64px, '~sprite.png', 'add', );
 $back-name: 'back';
-$back-x: 64px;
+$back-x: 68px;
 $back-y: 0px;
-$back-offset-x: -64px;
+$back-offset-x: -68px;
 $back-offset-y: 0px;
 $back-width: 64px;
 $back-height: 64px;
-$back-total-width: 128px;
+$back-total-width: 132px;
 $back-total-height: 64px;
 $back-image: '~sprite.png';
-$back: (64px, 0px, -64px, 0px, 64px, 64px, 128px, 64px, '~sprite.png', 'back', );
-$spritesheet-width: 128px;
+$back: (68px, 0px, -68px, 0px, 64px, 64px, 132px, 64px, '~sprite.png', 'back', );
+$spritesheet-width: 132px;
 $spritesheet-height: 64px;
 $spritesheet-image: '~sprite.png';
 $spritesheet-sprites: ($add, $back, );
-$spritesheet: (128px, 64px, '~sprite.png', $spritesheet-sprites, );
+$spritesheet: (132px, 64px, '~sprite.png', $spritesheet-sprites, );
 
 // The provided mixins are intended to be used with the array-like variables
 //
